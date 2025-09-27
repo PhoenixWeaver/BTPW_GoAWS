@@ -8,9 +8,6 @@ Date: 22/09/2025
 Description: This is a comprehensive AWS Lambda function built with Go that demonstrates
              user authentication, middleware patterns, and API Gateway integration.
 
-TO RUN THIS APPLICATION:
-cd "C:\Users\Admin\Documents\GODEV\GO Courses\GO AWS\CDK7\lambda"
-go run .                    // Compiles and runs all Go files in the directory
 
 LEARNING OBJECTIVES:
 - AWS Lambda function development with Go
@@ -50,25 +47,6 @@ SECTION ORDER ANALYSIS (REORGANIZED BY LOGICAL FLOW):
   3. Main Entry Point (main function with routing logic)
   4. Documentation & Analysis
 
-/// SECTION - cdk deploy
-cd "C:\Users\Admin\Documents\GODEV\GO Courses\GO AWS\CDK6"
-cdk deploy
-
-///SECTION - lambda executable
-cd "C:\Users\Admin\Documents\GODEV\GO Courses\GO AWS\CDK6\lambda"
-go build -o bootstrap main.go
-Compress-Archive -Path bootstrap -DestinationPath function.zip -Force
-
-///SECTION - build the Lambda function package using PowerShell
-cd "C:\Users\Admin\Documents\GODEV\GO Courses\GO AWS\CDK6\lambda"
-$env:GOOS = "linux"
-$env:GOARCH = "amd64"
-go build -o bootstrap main.go
-Compress-Archive -Path bootstrap -DestinationPath function.zip -Force
-
-///SECTION - root  Deploying with the AWS CDK
-cd "C:\Users\Admin\Documents\GODEV\GO Courses\GO AWS\CDK6"
-cdk deploy
 
 /// !SECTION 1 - DATA STRUCTURES & TYPES
 /// !SECTION 2 - UTILITY FUNCTIONS
@@ -232,7 +210,7 @@ func main() {
 	fmt.Println("====================================================================")
 	fmt.Println("~~~~~~~~~~~~~~ Welcome to the AWS Lamb-da of Phoenix ! ~~~~~~~~~~~~~~")
 	fmt.Println("=====================================================================")
-	fmt.Println("Running modes : Loco or Live ^_^ !! ")
+	fmt.Println("................Running modes : Loco or Live ^_^ !!..................")
 	fmt.Println("0 - Local testing with DOCKER for direct JSON (Backend Testing, n3rds)")
 	fmt.Println("1 - AWS Lambda with direct JSON (HandleRequest-Frontend Testing, pimps)")
 	fmt.Println("Default - Live on AWS Lambda with API Gateway (U, Reg. Joe - Sirs !)")
@@ -265,7 +243,7 @@ func main() {
 			// Running locally
 			testEvent := MyEvent{
 				Username: "# Phonenix !",
-				Password: "Password123 !",
+				Password: "Password123 ?",
 			}
 
 			result, err := HandleRequest(testEvent)

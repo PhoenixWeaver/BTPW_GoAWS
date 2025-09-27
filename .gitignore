@@ -98,3 +98,16 @@ aws-credentials.json
 local/
 temp/
 tmp/
+
+# Build artifacts
+bootstrap
+main
+lambda/main
+
+# Windows specific
+*.exe
+BTgoAWS.exe
+
+# Project specific
+OutputSamples/
+!OutputSamples/README.md
