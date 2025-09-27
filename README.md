@@ -1,4 +1,4 @@
-# 🚀 COMPREHENSIVE PROJECT GUIDE: AWS Lambda + Go + CDK + DynamoDB v2
+# 🚀 ::: Go on Amazon AWS CDK DynamoDB ::: 🚀
 
 	fmt.Println("====================================================================")
 	fmt.Println("~~~~~~~~~~~~~~ Welcome to the AWS Lamb-da of Phoenix ! ~~~~~~~~~~~~~~")
