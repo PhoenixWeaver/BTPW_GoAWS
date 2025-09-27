@@ -111,3 +111,6 @@ BTgoAWS.exe
 # Project specific
 OutputSamples/
 !OutputSamples/README.md
+
+# Documentation files
+COMPREHENSIVE_PROJECT_GUIDE_FINAL.md
