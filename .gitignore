@@ -109,8 +109,8 @@ lambda/main
 BTgoAWS.exe
 
 # Project specific
-OutputSamples/
-!OutputSamples/README.md
+# OutputSamples/ - Commented out to allow educational screenshots
+# !OutputSamples/README.md
 
 # Documentation files
 COMPREHENSIVE_PROJECT_GUIDE_FINAL.md
