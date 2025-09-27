@@ -22,7 +22,7 @@ This is a **production-ready serverless authentication system** that demonstrate
 
 ## 📋 **CRITICAL DEVELOPMENT ORDER - NEVER DEVIATE**
 
-### **⚠️ FOLLOW THIS EXACT SEQUENCE TO AVOID DEPENDENCY HELL**
+### **⚠️ FOLLOW THIS EXACT SEQUENCE TO AVOID DEPENDENCY ISSUES**
 
 ```
 1. 🗂️  TYPES LAYER (types.go) - FIRST
